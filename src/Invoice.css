@@ -1,0 +1,106 @@
+.invoice-container {
+    width: 70%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .invoice-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  .invoice-header h2 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  .invoice-header h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #4a4a4a;
+  }
+  
+  .invoice-body {
+    margin-top: 20px;
+  }
+  
+  .product-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .product-table th,
+  .product-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .product-table th {
+    background-color: #f4f4f4;
+  }
+  
+  .total-section h3 {
+    color: red;
+    text-align: right;
+  }
+  
+  .invoice-footer {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .invoice-actions {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+  
+  .invoice-actions button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .invoice-actions button:last-child {
+    background-color: #007bff;
+  }
+  
+
+  .HomeApp {
+    text-align: center;
+    background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  }
+
+  .home-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .home-image {
+    width: 10%;
+    max-width: 120px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
