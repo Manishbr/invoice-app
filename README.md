@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+Invoice App - Project Management & Billing System
+📌 Overview
+The Invoice App is a robust project management and billing system designed to automate invoice generation, track payments, and manage clients efficiently. It is built using React (frontend) and Node.js with Express (backend), integrated with a MongoDB database. The app supports authentication, CRUD operations, invoice PDF generation, and payment tracking.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+⚙️ Tech Stack
+Frontend:
+React.js (Functional Components & Hooks)
+Redux Toolkit (State Management)
+Tailwind CSS (UI Styling)
+Axios (API Requests)
+React Router (Navigation)
+Backend:
+Node.js & Express.js (REST API)
+MongoDB & Mongoose (Database & ORM)
+JWT Authentication (Secure API Access)
+Nodemailer (Email Invoice)
+PDFKit (Generate Invoices in PDF Format)
+DevOps & Deployment:
+Docker (Containerization)
+CI/CD (GitHub Actions) (Automated Deployments)
+AWS (EC2, S3, RDS) (Scalable Deployment)
+Nginx & PM2 (Load Balancing & Process Management)
+Features
+✅ User Authentication & Roles
+Secure JWT-based Authentication
+Role-based access for Admins, Clients, and Employees
+Password reset with Nodemailer
+✅ Invoice Management
+Create, Read, Update, Delete (CRUD) Invoices
+Generate PDF invoices dynamically
+Track paid/unpaid invoices
+Send invoices via email
+✅ Client & Project Management
+Store client details securely
+Manage multiple projects per client
+Assign tasks and deadlines
+✅ Payment Integration
+Integrated with Stripe & PayPal
+Payment webhooks for real-time updates
+Automatic email receipts
+✅ Dashboard & Reports
+Interactive dashboard with charts & graphs
+Generate custom reports (monthly, yearly revenue)
+Export reports as CSV/PDF
